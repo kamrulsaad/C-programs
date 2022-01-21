@@ -1,6 +1,8 @@
+//2. Write a C program to calculate the sum of 2​ 2​ + 4 2 ​ ​ + 6​ 2​ +... + n 2
+
 #include<stdio.h>
 void main()
-{//sum of 2​ 2​ + 4 2 ​ ​ + 6​ 2​ + …. + n 2
+{
     int n, i, sum=0;
     printf("Enter an even integer: ");
     scanf("%d", &n);
@@ -13,6 +15,6 @@ void main()
                 sum = sum + (i*i);
                 }
             }
-    printf("Summation of the series 2^2+4^2+6^2..+n^2 : %d",sum);
+    printf("\nSummation of the series 2^2+4^2+6^2..+n^2 is : %d\n",sum);
     }
 }
