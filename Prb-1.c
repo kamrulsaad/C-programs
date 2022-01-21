@@ -1,4 +1,4 @@
-/*Write a C program that takes an integer input and finds all of its factors (using if-else and
+/*1. Write a C program that takes an integer input and finds all of its factors (using if-else and
 For loop).*/
 
 #include<stdio.h>
